@@ -1,0 +1,2 @@
+echo "`(test -f $FILE && echo "[O]") || echo "[X]"`FILE=$FILE "
+echo "`(test -d $FOLDER && echo "[O]") || echo "[X]"`FOLDER=$FOLDER"
