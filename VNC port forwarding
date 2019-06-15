@@ -1,0 +1,6 @@
+export VNC_VIA_CMD='/usr/bin/ssh -p [PORT] -l [USER] -f -L %L:%H:%R %G sleep 10'
+vncviewer -via [HOST] localhost:[DESK_ID]
+
+for example
+export VNC_VIA_CMD='/usr/bin/ssh -p 40051 -l jajaja -f -L %L:%H:%R %G sleep 10'
+vncviewer -via workstation.com.tw localhost:1
